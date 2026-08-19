@@ -9,11 +9,15 @@ import Santri from "./latihan1/Santri";
 import PraktikTwo from "./useState/PraktikTwo";
 import Basic from "./useRef/Basic";
 import Latihan from "./latihan2/Latihan";
+import LoginForm from "./formUncontrolledvsControlled/LoginForm";
+import LoginFormWithUseRef from "./formUncontrolledvsControlled/LoginFormWithUseRef";
+import LoginFormControlled from "./formUncontrolledvsControlled/LoginFormControlled";
+import LatihanLogin from "./latihan3/LatihanLogin";
 
 export default function App() {
   return (
     <div className="space-y-5">
-      <Navbar />
+      {/*       <Navbar />
       <Hero />
       <Kaki />
       <Detail />
@@ -28,7 +32,11 @@ export default function App() {
       <Santri nama={"joni"} aktif={false} hobi={"coding"} kelas={10} />
       <PraktikTwo />
       <Basic />
-      <Latihan />
+      <Latihan /> */}
+      {/* <LoginForm /> */}
+      {/* <LoginFormWithUseRef /> */}
+      {/* <LoginFormControlled /> */}
+      <LatihanLogin />
     </div>
   );
 }
