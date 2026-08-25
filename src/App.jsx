@@ -13,6 +13,12 @@ import LoginForm from "./formUncontrolledvsControlled/LoginForm";
 import LoginFormWithUseRef from "./formUncontrolledvsControlled/LoginFormWithUseRef";
 import LoginFormControlled from "./formUncontrolledvsControlled/LoginFormControlled";
 import LatihanLogin from "./latihan3/LatihanLogin";
+import RadixPrimitif from "./StyleComponent/RadixPrimitif";
+import "@radix-ui/themes/styles.css";
+import { Theme } from "@radix-ui/themes";
+import RadixThemes from "./StyleComponent/RadixThemes";
+import MenyimpanDataEffect from "./useEffect/MenyimpanDataEffect";
+import LatihanUseEffect from "./latihan4/LatihanUseEffect";
 
 export default function App() {
   return (
@@ -36,7 +42,14 @@ export default function App() {
       {/* <LoginForm /> */}
       {/* <LoginFormWithUseRef /> */}
       {/* <LoginFormControlled /> */}
-      <LatihanLogin />
+      {/* <LatihanLogin /> */}
+      {/* <Latihan /> */}
+      {/* <RadixPrimitif /> */}
+      {/*       <Theme>
+        <RadixThemes />
+      </Theme> */}
+      {/* <MenyimpanDataEffect /> */}
+      <LatihanUseEffect />
     </div>
   );
 }
