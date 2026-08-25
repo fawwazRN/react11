@@ -233,17 +233,17 @@ Gunakan materi yang sudah dipelajari:
 
 Pastikan semua fitur berikut berjalan:
 
-- [ ] Nama santri dapat diketik.
-- [ ] Nama langsung tampil pada halaman.
-- [ ] Angka dimulai dari `0`.
-- [ ] Tombol **Tambah** menambah angka `1`.
-- [ ] Console menampilkan pesan ketika Component pertama kali dijalankan.
-- [ ] Console menampilkan angka ketika nilai angka berubah.
-- [ ] Status berubah setelah angka berubah.
-- [ ] Judul browser mengikuti nilai angka.
-- [ ] `useEffect` digunakan sesuai kebutuhan.
-- [ ] Tidak menggunakan API.
-- [ ] Tidak menggunakan React Router.
+- [ v ] Nama santri dapat diketik.
+- [ v ] Nama langsung tampil pada halaman.
+- [ v ] Angka dimulai dari `0`.
+- [ v ] Tombol **Tambah** menambah angka `1`.
+- [ v ] Console menampilkan pesan ketika Component pertama kali dijalankan.
+- [ v ] Console menampilkan angka ketika nilai angka berubah.
+- [ v ] Status berubah setelah angka berubah.
+- [ v ] Judul browser mengikuti nilai angka.
+- [ v ] `useEffect` digunakan sesuai kebutuhan.
+- [ v ] Tidak menggunakan API.
+- [ v ] Tidak menggunakan React Router.
 
 ---
 
@@ -251,13 +251,13 @@ Pastikan semua fitur berikut berjalan:
 
 Jawab pertanyaan berikut setelah program selesai:
 
-1. Mengapa kita membutuhkan `useEffect` pada tugas ini?
-2. Mengapa pesan `"Dashboard Santri berhasil dijalankan"` tidak perlu dijalankan setiap kali angka berubah?
-3. Mengapa proses yang berhubungan dengan perubahan angka perlu memperhatikan nilai `angka`?
-4. Apa perbedaan pekerjaan yang dilakukan ketika Component pertama kali muncul dengan pekerjaan ketika `angka` berubah?
-5. Mengapa `useState` digunakan untuk menyimpan `angka`?
-6. Mengapa input nama menggunakan Controlled Component?
-7. Apa yang terjadi jika dependency pada `useEffect` tidak ditentukan dengan tepat?
+1. Mengapa kita membutuhkan `useEffect` pada tugas ini? agar effect bisa dijalankan ketika si [angka] berubah
+2. Mengapa pesan `"Dashboard Santri berhasil dijalankan"` tidak perlu dijalankan setiap kali angka berubah? karena itu hanya pesan singkat (untuk memberi tahu bahwa memang berhasil dijalankan)
+3. Mengapa proses yang berhubungan dengan perubahan angka perlu memperhatikan nilai `angka`? agar tidak rusak codenya
+4. Apa perbedaan pekerjaan yang dilakukan ketika Component pertama kali muncul dengan pekerjaan ketika `angka` berubah? kalau component pertama kali muncul -> hanya muncul 1x di awal, tetapi kalau memperhatikan `angka` -> setiap [angka] berubah effect akan berjalan
+5. Mengapa `useState` digunakan untuk menyimpan `angka`? agar [angka] bisa diolah oleh useeffect
+6. Mengapa input nama menggunakan Controlled Component? agar setiap perubahan sekecil apapun, perubahan dapat diketahui
+7. Apa yang terjadi jika dependency pada `useEffect` tidak ditentukan dengan tepat? error
 
 ---
 
@@ -272,8 +272,8 @@ Kumpulkan:
 3. Screenshot Console yang menunjukkan hasil `useEffect`.
 4. Jawaban pertanyaan refleksi.
 
-**Nama:** ______________________________
+**Nama:** fawwaz romzi nagib
 
-**Kelas:** ______________________________
+**Kelas:** 11A
 
-**Tanggal:** ____________________________ -->
+**Tanggal:** 8/25/2026 -->
