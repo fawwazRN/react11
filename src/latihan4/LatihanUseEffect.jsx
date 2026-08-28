@@ -19,8 +19,6 @@ export default function LatihanUseEffect() {
     if (angka != 0) {
       setStatus(true);
     }
-
-    return () => {};
   }, [angka]);
 
   return (
