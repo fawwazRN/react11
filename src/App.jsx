@@ -19,6 +19,14 @@ import { Theme } from "@radix-ui/themes";
 import RadixThemes from "./StyleComponent/RadixThemes";
 import MenyimpanDataEffect from "./useEffect/MenyimpanDataEffect";
 import LatihanUseEffect from "./latihan4/LatihanUseEffect";
+import { RouterProvider } from "react-router";
+import { route } from "./router.jsx";
+import Home from "./LearnTwoUseContext/Home.jsx";
+import AppUseContext from "./latihan6/TugasUseContext/AppUseContext.jsx";
+/* import Home from "./useContext/Home.jsx";
+import About from "./useContext/About.jsx";
+import Context from "./useContext/Context.jsx"; */
+// import Profile from "./LearnTwoUseContext/Profile.jsx";
 
 export default function App() {
   return (
@@ -49,7 +57,12 @@ export default function App() {
         <RadixThemes />
       </Theme> */}
       {/* <MenyimpanDataEffect /> */}
-      <LatihanUseEffect />
+      {/* <LatihanUseEffect /> */}
+      {/* <RouterProvider router={route} /> */}
+      {/* <Home /> */}
+      {/* <Context /> */}
+      {/* <Home /> */}
+      <AppUseContext />
     </div>
   );
 }
