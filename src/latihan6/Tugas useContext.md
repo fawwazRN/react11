@@ -121,5 +121,3 @@ Jika nama berubah:
 ```
 
 ---
-
-

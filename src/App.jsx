@@ -23,6 +23,9 @@ import { RouterProvider } from "react-router";
 import { route } from "./router.jsx";
 import Home from "./LearnTwoUseContext/Home.jsx";
 import AppUseContext from "./latihan6/TugasUseContext/AppUseContext.jsx";
+import ExampleOne from "./learnUseReducer/ExampleOne.jsx";
+import ExampleTwo from "./learnUseReducer/ExampleTwo.jsx";
+import Counter from "./latihan7/Counter.jsx";
 /* import Home from "./useContext/Home.jsx";
 import About from "./useContext/About.jsx";
 import Context from "./useContext/Context.jsx"; */
@@ -62,7 +65,10 @@ export default function App() {
       {/* <Home /> */}
       {/* <Context /> */}
       {/* <Home /> */}
-      <AppUseContext />
+      {/* <AppUseContext /> */}
+      {/* <ExampleOne /> */}
+      {/* <ExampleTwo /> */}
+      <Counter />
     </div>
   );
 }
